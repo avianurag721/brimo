@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+    
+}
+
+.data-container{
+    border: 2px solid red ;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.data-container>div {
+    background-color: black;
+    color: wheat;
+    border-radius: 5px;
+    padding-left: 5px;
+    width: 300px;
+    border: 2px solid green;
+    margin: 10px 20px ;
+}
+#type{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#dataSelector{
+    background: red;
+    color: black;
+}
