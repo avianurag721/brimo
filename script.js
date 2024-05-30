@@ -66,19 +66,19 @@ function displayData(data, category) {
       itemElement.appendChild(producer);
     } else {
       const name = document.createElement("div");
-      name.textContent = `title: ${item.name}`;
+      name.textContent = `name: ${item.name}`;
 
       const model = document.createElement("div");
-      model.textContent = `episode id: ${item.model}`;
+      model.textContent = `model: ${item.model}`;
 
       const manufacturer = document.createElement("div");
-      manufacturer.textContent = `director: ${item.manufacturer}`;
+      manufacturer.textContent = `manufacturer: ${item.manufacturer}`;
 
       const vehicle_class = document.createElement("div");
-      vehicle_class.textContent = `release_date: ${item.vehicle_class}`;
+      vehicle_class.textContent = `vehicle_class: ${item.vehicle_class}`;
 
       const passengers = document.createElement("div");
-      passengers.textContent = `producer: ${item.passengers}`;
+      passengers.textContent = `passengers: ${item.passengers}`;
 
       itemElement.appendChild(name);
       itemElement.appendChild(model);
